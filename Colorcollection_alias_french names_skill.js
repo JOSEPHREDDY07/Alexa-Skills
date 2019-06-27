@@ -28,8 +28,8 @@ const data = {
          "collectionAvailability": "Available in all products"
             
         },
-         { "name":"America’s Color",
-         "description": "A snapshot in color of geographically inspired America’s most popular, well-traveled regions .As of 2016, we are phasing out AC collection as all 42 colors already exist in the full Benjamin Moore Classics Collection",
+         { "name":"Americaâ€™s Color",
+         "description": "A snapshot in color of geographically inspired Americaâ€™s most popular, well-traveled regions .As of 2016, we are phasing out AC collection as all 42 colors already exist in the full Benjamin Moore Classics Collection",
          "prefix":"A C-1 to A C- 42.",
          "number": "42",
          "merchandiseavailability":"U S stores",
@@ -89,7 +89,7 @@ const data = {
        },
 
  { "name":"Historical Color",
-         "description": "Unveiled in 1976 to celebrate the bicentennial, a collection of 191 colors inspired by America’s historic landmarks .In 2016, 17 of PM colors have been added to this collection",
+         "description": "Unveiled in 1976 to celebrate the bicentennial, a collection of 191 colors inspired by Americaâ€™s historic landmarks .In 2016, 17 of PM colors have been added to this collection",
          "prefix":"HC-1 to HC-191.",
          "number": "191",
          "merchandiseavailability":"U S and CANADA stores",
@@ -158,7 +158,7 @@ const data = {
               
        },
  { "name":"Williams burg",
-         "description": "Launched in 2013, a collection of 144 colors derived from the historic homes and artifacts of one of America’s oldest settlements, Colonial Williamsburg",
+         "description": "Launched in 2013, a collection of 144 colors derived from the historic homes and artifacts of one of Americaâ€™s oldest settlements, Colonial Williamsburg",
          "prefix":"CW-5 to CW-720",
          "number": "144",
          "merchandiseavailability":"US stores",
@@ -203,7 +203,7 @@ const data = {
          "Colorno":	"242",
          "Alias":	"H C-90",
          "USEnglish":	"Laurel Canyon Beige",
-         "Spanish":	"Beige de Cañón Laurel",
+         "Spanish":	"Beige de CaÃ±Ã³n Laurel",
          "CAEnglish":	"Laurel Canyon Beige",
          "French":	"Marmotte",
          "ExteriorAvailibility ":	"Unavailable"
@@ -265,7 +265,7 @@ const handlers = {
 
    'CollectionsIntent': function () {
     var list ='Benjamin Moore has various color collections for Interior, exterior, primer, and speciality coatings. A Few of the color collections are: ';
-    var catalog = 'Affinity, America’s Color, Aura Color Stories,';
+    var catalog = 'Affinity, Americaâ€™s Color, Aura Color Stories,';
     var say = list + catalog + ' To know more about any of these Collections, say the collection name, or tell me about Aura Color Stories. ';
     this.response.speak(say).listen(say);
     this.emit(':responseReady');
