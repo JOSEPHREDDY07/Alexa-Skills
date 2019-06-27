@@ -32,7 +32,7 @@ var data = [
     "Benjamin Moore is an Industry Leader Introducing 75 New Colors in the First-Ever Soft Touch Matte Finish with their century product.",
     "Benjamin Moore & Co conducts all of its research and tests each of our products at our Flanders location in new jersey.",
     "In 2017 BENJAMIN MOORE introduced Notable dry erase paint, with a premium performance, 2 component product coating.",
-    "BENJAMIN MOORE REVEALS ìCalienteî AS ITS COLOR OF THE YEAR for 2018."
+    "BENJAMIN MOORE REVEALS ‚ÄúCaliente‚Äù AS ITS COLOR OF THE YEAR for 2018."
 ];
 
 //=========================================================================================================================================
